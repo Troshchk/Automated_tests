@@ -1,6 +1,6 @@
 from capitalize import capitalize
 
-if capitalize('hello') != 'Hello':
+if capitalize('hello') != 'HEllo':
     raise Exception('Функция работает неверно!')
 
 if capitalize('') != '':
